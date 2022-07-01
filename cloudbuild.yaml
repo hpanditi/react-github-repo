@@ -1,15 +1,14 @@
 steps:
-- name: gcr.io/cloud-builders/docker
-  args:
-    - "build"
-    - "-t"
-    - "us.gcr.io/$PROJECT_ID/workspace_react_errors:$COMMIT_SHA"
-    - "-t"
-    - "us.gcr.io/$PROJECT_ID/workspace_react_errors:latest"
-    - "-f"
-    - "./Dockerfile"
-    - "."
 
-images:
-- us.gcr.io/$PROJECT_ID/workspace_react_errors:$COMMIT_SHA
-- us.gcr.io/$PROJECT_ID/workspace_react_errors:latest
+# Step 0: FRONTEND copy only build and deploy cloud app frontend
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: bash
+  dir: 'frontend'
+  args: 
+    - '-c'
+    - |
+      cd ..
+      cp app-production-build.yaml frontend/build
+      cd frontend/build
+      gcloud app deploy
+  timeout: '1600s'
