@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Hello React! This is to test a trigger.</p>
+        <p>Hello React! This is to test a trigger. Summer is great.</p>
       </header>
     </div>
   );
