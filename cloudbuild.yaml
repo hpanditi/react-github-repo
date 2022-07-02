@@ -1,14 +1,10 @@
 steps:
 
-# Step 0: FRONTEND copy only build and deploy cloud app frontend
-- name: 'gcr.io/cloud-builders/gcloud'
-  entrypoint: bash
-  dir: 'frontend'
-  args: 
-    - '-c'
-    - |
-      cd ..
-      cp app-production-build.yaml frontend/build
-      cd frontend/build
-      gcloud app deploy
-  timeout: '1600s'
+- name: gcr.io/cloud-builders/npm
+  args: [ install ]
+
+- name: gcr.io/cloud-builders/npm
+  args: [ run, build, --prod ]
+
+- name: gcr.io/cloud-builders/gcloud
+  args: [ app, deploy ]
