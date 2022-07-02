@@ -13,7 +13,7 @@ function Home() {
         <h1>Home</h1>
       </header>
       <body>
-        <p>This is some text.</p>
+        <p>This is the home page.</p>
       </body>
     </div>
   );
