@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Updated react application!</p>
+        <p>Most recent version!</p>
       </header>
     </div>
   );
