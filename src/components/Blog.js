@@ -15,12 +15,14 @@ function Blog() {
       <body>
         <p>Here is more stuff about coffee!</p>
         <br />
-        <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facere
-          assumenda vitae voluptate pariatur ducimus blanditiis sapiente atque
-          corrupti harum eveniet animi magnam inventore, labore laboriosam fuga
-          quisquam optio a!
-        </article>
+        <div className="article-one">
+          <article>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            facere assumenda vitae voluptate pariatur ducimus blanditiis
+            sapiente atque corrupti harum eveniet animi magnam inventore, labore
+            laboriosam fuga quisquam optio a!
+          </article>
+        </div>
       </body>
     </div>
   );

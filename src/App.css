@@ -13,3 +13,8 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+
+article-one {
+  background-color: lightsalmon;
+  display: flex;
+}
