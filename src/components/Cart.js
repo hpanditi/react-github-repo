@@ -12,9 +12,7 @@ function Cart() {
         <a href="/Contact"> Contact</a>
         <h1>Cart</h1>
       </header>
-      <body>
-        <p>This is some text.</p>
-      </body>
+      <body></body>
     </div>
   );
 }

@@ -12,9 +12,7 @@ function Items() {
         <a href="/Contact"> Contact</a>
         <h1>Items</h1>
       </header>
-      <body>
-        <p>This is some text.</p>
-      </body>
+      <body></body>
     </div>
   );
 }

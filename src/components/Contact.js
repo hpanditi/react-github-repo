@@ -13,7 +13,10 @@ function Contact() {
         <h1>Contact</h1>
       </header>
       <body>
-        <p>This is some text.</p>
+        <p>
+          Feel free to send us a message with any questions and/or comments! We
+          would love to hear from you!
+        </p>
       </body>
     </div>
   );
