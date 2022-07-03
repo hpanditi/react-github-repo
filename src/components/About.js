@@ -14,7 +14,6 @@ function About() {
       </header>
       <body>
         <p>A little bit about this coffee shop...</p>
-        <br />
         <p>
           Over the years, I have always enjoyed drinking coffee. Whether it's
           just on a Saturday morning, making a cup before work or just relaxing

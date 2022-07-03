@@ -17,10 +17,12 @@ function Blog() {
         <br />
         <div className="article-one">
           <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-            facere assumenda vitae voluptate pariatur ducimus blanditiis
-            sapiente atque corrupti harum eveniet animi magnam inventore, labore
-            laboriosam fuga quisquam optio a!
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+              harum inventore, voluptas natus ad neque odio incidunt! Id
+              impedit, ipsa, autem consequatur corrupti tenetur harum iure rerum
+              dolorum magnam recusandae.
+            </p>
           </article>
         </div>
       </body>
