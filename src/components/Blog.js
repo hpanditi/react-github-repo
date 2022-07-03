@@ -4,7 +4,7 @@ function Blog() {
   return (
     <div>
       <header>
-        <a href="/">Home |</a>
+        <a href="/"> Home |</a>
         <a href="/About"> About |</a>
         <a href="/Blog"> Blog |</a>
         <a href="/Items"> Items |</a>
