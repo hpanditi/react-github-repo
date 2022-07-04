@@ -17,4 +17,17 @@ p {
 .article-one {
   background-color: lightsalmon;
   display: flex;
+  padding: 5px;
+}
+
+.article-two {
+  background-color: lightsalmon;
+  display: flex;
+  padding: 5px;
+}
+
+.article-three {
+  background-color: lightsalmon;
+  display: flex;
+  padding: 5px;
 }

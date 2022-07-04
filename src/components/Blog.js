@@ -24,6 +24,29 @@ function Blog() {
               dolorum magnam recusandae.
             </p>
           </article>
+          <br />
+          <div className="article-two">
+            <article>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas necessitatibus consectetur, voluptatum repudiandae
+                fugiat quibusdam autem. Iusto similique ad voluptates qui,
+                quidem quisquam delectus ipsum provident maxime repudiandae
+                aliquam porro?
+              </p>
+            </article>
+            <br />
+            <div className="article-three">
+              <article>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Eveniet accusantium nam aut expedita consequuntur nostrum
+                  dicta labore sit fuga tempora eum rem deleniti distinctio
+                  exercitationem magnam laboriosam, atque tenetur quidem.
+                </p>
+              </article>
+            </div>
+          </div>
         </div>
       </body>
     </div>
