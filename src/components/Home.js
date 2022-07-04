@@ -1,5 +1,5 @@
 import React from "react";
-import coffee from "src/images/imageone.webp";
+import coffee from "images/imageone.jpeg";
 
 function Home() {
   return (
