@@ -1,5 +1,5 @@
 import React from "react";
-import coffee from "./images/imageone.webp";
+import coffee from "src/images/imageone.webp";
 
 function Home() {
   return (
@@ -16,7 +16,7 @@ function Home() {
       <body>
         <p>Welcome to our coffee shop!</p>
         <br />
-        <img src={coffee} alt="imageone" />
+        <img src={coffee} alt="coffee" />
       </body>
     </div>
   );
