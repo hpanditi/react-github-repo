@@ -18,6 +18,11 @@ p {
   padding: 5px;
 }
 
+.self-image {
+  width: 100px;
+  height: 100px;
+}
+
 .article-one {
   background-color: lightsalmon;
   display: flex;
