@@ -14,7 +14,7 @@ function Home() {
         <h1>Deets Coffee Cafe</h1>
       </header>
       <body>
-        <p>Welcome to our coffee shop!</p>
+        <p>Welcome to our coffee shop!!!</p>
         <br />
         <img src={coffee} alt="imageone" />
       </body>
