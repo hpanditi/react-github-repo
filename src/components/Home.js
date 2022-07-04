@@ -16,7 +16,7 @@ function Home() {
       <body>
         <p>Welcome to our coffee shop!</p>
         <br />
-        <img src={coffee} alt="coffee" />
+        <img src={coffee} alt="imageone" />
       </body>
     </div>
   );
