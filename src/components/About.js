@@ -30,7 +30,11 @@ function About() {
           </p>
         </div>
         <div className="self-image">
-          <img src={portrait} alt="portrait" />
+          <img
+            src={portrait}
+            alt="portrait"
+            style={{ width: "100px", height: "100px" }}
+          />
         </div>
       </body>
     </div>
