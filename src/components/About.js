@@ -1,4 +1,5 @@
 import React from "react";
+import portrait from "./profilepicture.jpeg";
 
 function About() {
   return (
@@ -28,7 +29,9 @@ function About() {
             and making sure it is wonderful! We hope you enjoy our items!
           </p>
         </div>
-        <div className="self-image"></div>
+        <div className="self-image">
+          <img src={portrait} alt="portrait" />
+        </div>
       </body>
     </div>
   );
