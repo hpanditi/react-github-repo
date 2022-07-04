@@ -17,6 +17,7 @@ function Blog() {
         <br />
         <div className="article-one">
           <article>
+            <h3>Blog 1:</h3>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
               harum inventore, voluptas natus ad neque odio incidunt! Id
@@ -28,6 +29,7 @@ function Blog() {
         <br />
         <div className="article-two">
           <article>
+            <h3>Blog 2:</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
               necessitatibus consectetur, voluptatum repudiandae fugiat
@@ -40,6 +42,7 @@ function Blog() {
         <br />
         <div className="article-three">
           <article>
+            <h3>Blog 3:</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
               accusantium nam aut expedita consequuntur nostrum dicta labore sit

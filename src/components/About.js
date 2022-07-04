@@ -28,6 +28,7 @@ function About() {
             and making sure it is wonderful! We hope you enjoy our items!
           </p>
         </div>
+        <div className="self-image"></div>
       </body>
     </div>
   );
