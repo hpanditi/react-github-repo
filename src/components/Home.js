@@ -1,4 +1,5 @@
 import React from "react";
+import coffee from "./images/imageone.webp";
 
 function Home() {
   return (
@@ -14,6 +15,8 @@ function Home() {
       </header>
       <body>
         <p>Welcome to our coffee shop!</p>
+        <br />
+        <img src={coffee} alt="imageone" />
       </body>
     </div>
   );
