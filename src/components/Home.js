@@ -1,5 +1,5 @@
 import React from "react";
-import coffee from "./images/imageone.jpeg";
+// import coffee from "./images/imageone.jpeg";
 
 function Home() {
   return (
@@ -16,7 +16,7 @@ function Home() {
       <body>
         <p>Welcome to our coffee shop!</p>
         <br />
-        <img src={coffee} alt="coffee" />
+        {/* <img src={coffee} alt="coffee" /> */}
       </body>
     </div>
   );
