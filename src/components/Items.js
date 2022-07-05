@@ -24,6 +24,7 @@ function Items() {
           alt="lightroast"
           style={{ width: "250px", height: "250 px" }}
         />
+        <p>Light Roast $12.95/pound</p>
         <button>Add to cart</button>
         <button>Learn more</button>
         <br />
@@ -32,6 +33,7 @@ function Items() {
           alt="mediumroast"
           style={{ width: "250px", height: "250 px" }}
         />
+        <p>Medium Roast $12.95/pound</p>
         <button>Add to cart</button>
         <button>Learn more</button>
         <br />
@@ -40,6 +42,7 @@ function Items() {
           alt="darkroast"
           style={{ width: "250px", height: "250 px" }}
         />
+        <p>Dark Roast $12.95/pound</p>
         <button>Add to cart</button>
         <button>Learn more</button>
         <br />
@@ -48,6 +51,7 @@ function Items() {
           alt="extradarkroast"
           style={{ width: "250px", height: "250 px" }}
         />
+        <p>Extra Dark Roast $12.95/pound</p>
         <button>Add to cart</button>
         <button>Learn more</button>
       </body>
