@@ -1,4 +1,8 @@
 import React from "react";
+import light from "./lightroast.jpeg";
+import medium from "./mediumroast.jpeg";
+import dark from "./darkroast.jpeg";
+import extradark from "./extradarkroast.jpeg";
 
 function Items() {
   return (
@@ -12,7 +16,32 @@ function Items() {
         <a href="/Contact"> Contact</a>
         <h1>Items</h1>
       </header>
-      <body></body>
+      <br />
+      <body>
+        <img
+          src={light}
+          alt="lightroast"
+          style={{ width: "250px", height: "250 px" }}
+        />
+        <br />
+        <img
+          src={medium}
+          alt="mediumroast"
+          style={{ width: "250px", height: "250 px" }}
+        />
+        <br />
+        <img
+          src={dark}
+          alt="darkroast"
+          style={{ width: "250px", height: "250 px" }}
+        />
+        <br />
+        <img
+          src={extradark}
+          alt="extradarkroast"
+          style={{ width: "250px", height: "250 px" }}
+        />
+      </body>
     </div>
   );
 }
