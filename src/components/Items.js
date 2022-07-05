@@ -23,24 +23,32 @@ function Items() {
           alt="lightroast"
           style={{ width: "250px", height: "250 px" }}
         />
+        <button>Add to cart</button>
+        <button>Learn more</button>
         <br />
         <img
           src={medium}
           alt="mediumroast"
           style={{ width: "250px", height: "250 px" }}
         />
+        <button>Add to cart</button>
+        <button>Learn more</button>
         <br />
         <img
           src={dark}
           alt="darkroast"
           style={{ width: "250px", height: "250 px" }}
         />
+        <button>Add to cart</button>
+        <button>Learn more</button>
         <br />
         <img
           src={extradark}
           alt="extradarkroast"
           style={{ width: "250px", height: "250 px" }}
         />
+        <button>Add to cart</button>
+        <button>Learn more</button>
       </body>
     </div>
   );
