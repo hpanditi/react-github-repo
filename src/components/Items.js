@@ -25,8 +25,8 @@ function Items() {
           style={{ width: "250px", height: "250 px" }}
         />
         <p>Light Roast $12.95/pound</p>
-        <button>Add to cart</button>
-        <button>Learn more</button>
+        <Button>Add to cart</Button>
+        <Button>Learn more</Button>
         <br />
         <img
           src={medium}
@@ -34,8 +34,8 @@ function Items() {
           style={{ width: "250px", height: "250 px" }}
         />
         <p>Medium Roast $12.95/pound</p>
-        <button>Add to cart</button>
-        <button>Learn more</button>
+        <Button>Add to cart</Button>
+        <Button>Learn more</Button>
         <br />
         <img
           src={dark}
@@ -43,8 +43,8 @@ function Items() {
           style={{ width: "250px", height: "250 px" }}
         />
         <p>Dark Roast $12.95/pound</p>
-        <button>Add to cart</button>
-        <button>Learn more</button>
+        <Button>Add to cart</Button>
+        <Button>Learn more</Button>
         <br />
         <img
           src={extradark}
@@ -52,8 +52,8 @@ function Items() {
           style={{ width: "250px", height: "250 px" }}
         />
         <p>Extra Dark Roast $12.95/pound</p>
-        <button>Add to cart</button>
-        <button>Learn more</button>
+        <Button>Add to cart</Button>
+        <Button>Learn more</Button>
       </body>
     </div>
   );
