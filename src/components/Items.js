@@ -6,6 +6,9 @@ import dark from "./darkroast.jpeg";
 import extradark from "./extradarkroast.jpeg";
 
 function Items() {
+  this.handleClick = () => {
+    alert("Item added to cart!");
+  };
   return (
     <div>
       <header>
@@ -25,8 +28,10 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Light Roast $12.95/pound</p>
-        <Button>Add to cart</Button>
-        <Button>Learn more</Button>
+        <Button className="light-add-to-cart" onClick={this.handleClick}>
+          Add to cart
+        </Button>
+        <Button className="light-learn-more">Learn more</Button>
         <p></p>
         <br />
         <img
@@ -35,8 +40,8 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Medium Roast $12.95/pound</p>
-        <Button>Add to cart</Button>
-        <Button>Learn more</Button>
+        <Button className="medium-add-to-cart">Add to cart</Button>
+        <Button className="light-learn-more">Learn more</Button>
         <p></p>
         <br />
         <img
@@ -45,8 +50,8 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Dark Roast $12.95/pound</p>
-        <Button>Add to cart</Button>
-        <Button>Learn more</Button>
+        <Button className="dark-add-to-cart">Add to cart</Button>
+        <Button className="dark-learn-more">Learn more</Button>
         <p></p>
         <br />
         <img
@@ -55,8 +60,8 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Extra Dark Roast $12.95/pound</p>
-        <Button>Add to cart</Button>
-        <Button>Learn more</Button>
+        <Button className="extradark-add-to-cart">Add to cart</Button>
+        <Button className="extradark-learn-more">Learn more</Button>
       </body>
     </div>
   );
