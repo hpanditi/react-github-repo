@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import light from "./lightroast.jpeg";
 import medium from "./mediumroast.jpeg";
 import dark from "./darkroast.jpeg";
@@ -28,10 +28,10 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Light Roast $12.95/pound</p>
-        <Button className="light-add-to-cart" onClick={this.handleClick}>
+        <button className="light-add-to-cart" onClick={this.handleClick}>
           Add to cart
-        </Button>
-        <Button className="light-learn-more">Learn more</Button>
+        </button>
+        <button className="light-learn-more">Learn more</button>
         <p></p>
         <br />
         <img
@@ -40,8 +40,8 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Medium Roast $12.95/pound</p>
-        <Button className="medium-add-to-cart">Add to cart</Button>
-        <Button className="light-learn-more">Learn more</Button>
+        <button className="medium-add-to-cart">Add to cart</button>
+        <button className="light-learn-more">Learn more</button>
         <p></p>
         <br />
         <img
@@ -50,8 +50,8 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Dark Roast $12.95/pound</p>
-        <Button className="dark-add-to-cart">Add to cart</Button>
-        <Button className="dark-learn-more">Learn more</Button>
+        <button className="dark-add-to-cart">Add to cart</button>
+        <button className="dark-learn-more">Learn more</button>
         <p></p>
         <br />
         <img
@@ -60,8 +60,8 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Extra Dark Roast $12.95/pound</p>
-        <Button className="extradark-add-to-cart">Add to cart</Button>
-        <Button className="extradark-learn-more">Learn more</Button>
+        <button className="extradark-add-to-cart">Add to cart</button>
+        <button className="extradark-learn-more">Learn more</button>
       </body>
     </div>
   );
