@@ -1,7 +1,7 @@
 import React from "react";
 
 const Product = (props) => {
-  return <h1>Product Component!</h1>;
+  return <p>Product Component !</p>;
 };
 
 function Cart() {
