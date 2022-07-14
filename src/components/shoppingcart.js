@@ -4,7 +4,7 @@ let productList = [
   { name: "light roast", price: 12.95, info: "light roast coffee" },
   { name: "medium roast", price: 12.95, info: "medium roast coffee" },
   { name: "dark roast", price: 12.95, info: "dark roast coffee" },
-  { name: "extra dark roast", price: 12.95, info: "extra dark roast coffee" },
+   { name: "extra dark roast", price: 12.95, info: "extra dark roast coffee"}
 ];
 
 /* Product */
@@ -12,7 +12,7 @@ class Product extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      qty: 0,
+      qty: 0
     };
     this.add = this.add.bind(this);
     this.subtract = this.subtract.bind(this);
@@ -21,14 +21,14 @@ class Product extends React.Component {
 
   add() {
     this.setState({
-      qty: this.state.qty + 1,
+      qty: this.state.qty + 1
     });
     this.props.handleTotal(this.props.price);
   }
 
   subtract() {
     this.setState({
-      qty: this.state.qty - 1,
+      qty: this.state.qty - 1
     });
     this.props.handleTotal(-this.props.price);
   }
@@ -42,9 +42,7 @@ class Product extends React.Component {
       <div>
         <div className="row form-group">
           <div className="col-sm-10">
-            <h4>
-              {this.props.name}: ${this.props.price}
-            </h4>
+            <h4>{this.props.name}: ${this.props.price}</h4>
           </div>
           <div className="col-sm-2 text-right">qty: {this.state.qty}</div>
         </div>
@@ -58,11 +56,7 @@ class Product extends React.Component {
             <button className="btn btn-outline-primary" onClick={this.add}>
               +1
             </button>
-            <button
-              className="btn btn-outline-primary"
-              onClick={this.subtract}
-              disabled={this.state.qty < 1}
-            >
+            <button className="btn btn-outline-primary" onClick={this.subtract} disabled={this.state.qty < 1}>
               -1
             </button>
           </div>
@@ -84,16 +78,10 @@ class Total extends React.Component {
     let totalIncTax = (+total + +tax).toFixed(2);
     let mystyle = {
       borderTop: "1px solid #ddd",
-      marginTop: "10px",
+      marginTop: "10px"
     };
     return (
-      <div
-        style={{
-          marginTop: "30px",
-          backgroundColor: "#F6F6F6",
-          padding: "10px",
-        }}
-      >
+      <div style={{"marginTop": "30px", "backgroundColor":"#F6F6F6","padding": "10px"}}>
         <h3 className="row" style={{ fontWeight: 400 }}>
           <span className="col-6">price:</span>
           <span className="col-6 text-right">${total}</span>
@@ -118,7 +106,7 @@ class ProductList extends React.Component {
 
     this.state = {
       total: 0,
-      productList: "",
+      productList: ""
     };
 
     this.createProduct = this.createProduct.bind(this);
@@ -134,13 +122,13 @@ class ProductList extends React.Component {
 
   createProduct(product) {
     this.setState({
-      products: this.state.productList.push(product),
+      products: this.state.productList.push(product)
     });
   }
 
   calculateTotal(price) {
     this.setState({
-      total: this.state.total + price,
+      total: this.state.total + price
     });
     console.log(this.state.total);
   }
@@ -154,7 +142,7 @@ class ProductList extends React.Component {
     if (!this.state.productList) return <p>loading...</p>;
 
     var component = this;
-    var products = this.state.productList.map(function (product) {
+    var products = this.state.productList.map(function(product) {
       return (
         <Product
           name={product.name}
@@ -174,3 +162,5 @@ class ProductList extends React.Component {
     );
   }
 }
+
+ReactDOM.render(<ProductList />, document.getElementById("app"));
