@@ -1,5 +1,3 @@
-import React from "react";
-
 console.clear();
 
 let productList = [
@@ -9,6 +7,7 @@ let productList = [
   { name: "extra dark roast", price: 12.95, info: "extra dark roast coffee" },
 ];
 
+/* Product */
 class Product extends React.Component {
   constructor(props) {
     super(props);
@@ -76,9 +75,9 @@ class Product extends React.Component {
 
 /* Total */
 class Total extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
+  constructor(props) {
+    super(props);
+  }
   render() {
     let total = this.props.total.toFixed(2);
     let tax = (this.props.total * 0.06).toFixed(2);
@@ -175,26 +174,3 @@ class ProductList extends React.Component {
     );
   }
 }
-
-function Cart() {
-  return (
-    <div>
-      <header>
-        <a href="/"> Home |</a>
-        <a href="/About"> About |</a>
-        <a href="/Blog"> Blog |</a>
-        <a href="/Items"> Items |</a>
-        <a href="/Cart"> Cart |</a>
-        <a href="/Contact"> Contact</a>
-        <h1>Cart</h1>
-      </header>
-      <body>
-        <Product />
-        <Total />
-        <ProductList />
-      </body>
-    </div>
-  );
-}
-
-export default Cart;
