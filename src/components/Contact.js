@@ -17,6 +17,8 @@ function Contact() {
           Feel free to send us a message with any questions and/or comments! We
           would love to hear from you!
         </p>
+        <br />
+        
       </body>
     </div>
   );

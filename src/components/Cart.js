@@ -76,9 +76,9 @@ class Product extends React.Component {
 
 /* Total */
 class Total extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   render() {
     let total = this.props.total.toFixed(2);
     let tax = (this.props.total * 0.06).toFixed(2);
