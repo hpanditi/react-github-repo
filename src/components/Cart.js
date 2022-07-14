@@ -1,5 +1,9 @@
 import React from "react";
 
+const Product = (props) => {
+  return <h1>Product Component!</h1>;
+};
+
 function Cart() {
   return (
     <div>
@@ -12,7 +16,9 @@ function Cart() {
         <a href="/Contact"> Contact</a>
         <h1>Cart</h1>
       </header>
-      <body></body>
+      <body>
+        <Product />
+      </body>
     </div>
   );
 }
