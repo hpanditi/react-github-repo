@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Header from "./Header.js";
 import Main from "./Main.js";
 import Basket from "./Basket.js";
 import data from "./data";
@@ -44,7 +43,6 @@ function Cart() {
         <h1>Cart</h1>
       </header>
       <body>
-        <Header countCartItems={cartItems.length}></Header>
         <div className="row">
           <Main onAdd={onAdd} products={products}></Main>
           <Basket
