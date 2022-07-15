@@ -1,4 +1,7 @@
 import React from "react";
+import Header from "./Header.js";
+import Main from "./Main.js";
+import Basket from "./Basket.js";
 
 function Cart() {
   return (
@@ -12,7 +15,13 @@ function Cart() {
         <a href="/Contact"> Contact</a>
         <h1>Cart</h1>
       </header>
-      <body></body>
+      <body>
+        <Header></Header>
+        <div>
+          <Main></Main>
+          <Basket></Basket>
+        </div>
+      </body>
     </div>
   );
 }
