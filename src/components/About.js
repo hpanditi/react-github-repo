@@ -19,8 +19,8 @@ function About() {
           <p>
             Over the years, I have always enjoyed drinking coffee. Whether it's
             just on a Saturday morning, making a cup before work or just
-            relaxing on a rainy, a cup of quality joe was always endearing. I
-            came to appreciate coffee in a different way as the years went on,
+            relaxing on a rainy day, a cup of quality joe was always endearing.
+            I came to appreciate coffee in a different way as the years went on,
             which lead me to give more importance and make it noteworthy! I
             believe each cup should be made with quality ingredients, special
             care, and warm compassion. This lead to this coffee shop where we
