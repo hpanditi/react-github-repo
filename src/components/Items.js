@@ -5,23 +5,6 @@ import dark from "./darkroast.jpeg";
 import extradark from "./extradarkroast.jpeg";
 
 function Items() {
-  const handleLightLearnMore = () =>
-    alert(
-      "This is our lightest roast. There are hardly any traces of oil and they have the greatest acidity. This is perfect if you enjoy a mild taste!  "
-    );
-  const handleMediumLearnMore = () =>
-    alert(
-      "This medium roast is the most balanced. It is less acidic and a tad sweeter! "
-    );
-  const handleDarkLearnMore = () =>
-    alert(
-      "The dark roast has beans that have more oil. They are low in acidity and have a stronger flavor!"
-    );
-  const extradarkLearnMore = () =>
-    alert(
-      "Our darkest roast features a flavor profile that has very low acidity and a bold, dark flavor!"
-    );
-
   return (
     <div>
       <header>
@@ -41,9 +24,9 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Light Roast $12.95/pound</p>
-        <button className="light-learn-more" onClick={handleLightLearnMore}>
-          Learn more
-        </button>
+        <a href="https://us-central1-react-gcp-pipeline.cloudfunctions.net/function-light">
+          <button className="light-learn-more">Learn More</button>
+        </a>
         <p></p>
         <br />
         <img
@@ -52,9 +35,9 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Medium Roast $12.95/pound</p>
-        <button className="medium-learn-more" onClick={handleMediumLearnMore}>
-          Learn more
-        </button>
+        <a href="https://us-central1-react-gcp-pipeline.cloudfunctions.net/function-medium">
+          <button className="medium-learn-more">Learn more</button>
+        </a>
         <p></p>
         <br />
         <img
@@ -63,9 +46,9 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Dark Roast $12.95/pound</p>
-        <button className="dark-learn-more" onClick={handleDarkLearnMore}>
-          Learn more
-        </button>
+        <a href="https://us-central1-react-gcp-pipeline.cloudfunctions.net/function-dark">
+          <button className="dark-learn-more">Learn more</button>
+        </a>
         <p></p>
         <br />
         <img
@@ -74,9 +57,9 @@ function Items() {
           style={{ width: "250px", height: "250 px", padding: "5px" }}
         />
         <p>Extra Dark Roast $12.95/pound</p>
-        <button className="extradark-learn-more" onClick={extradarkLearnMore}>
-          Learn more
-        </button>
+        <a href="https://us-central1-react-gcp-pipeline.cloudfunctions.net/function-extradark">
+          <button className="extradark-learn-more">Learn more</button>
+        </a>
       </body>
     </div>
   );
