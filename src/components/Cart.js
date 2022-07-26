@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Main from "./Main.js";
 import Basket from "./Basket.js";
 import data from "./data";
+import cartimage from "./shoppingcart.jpeg";
 
 function Cart() {
   const { products } = data;
@@ -43,6 +44,9 @@ function Cart() {
         <h1>Cart</h1>
       </header>
       <body>
+        <div className="cart-image">
+          <img src={cartimage} alt="cart" />
+        </div>
         <div className="row">
           <Main onAdd={onAdd} products={products}></Main>
           <Basket
