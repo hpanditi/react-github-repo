@@ -2,6 +2,9 @@ import React from "react";
 import coffee from "./imageone.jpeg";
 
 function Home() {
+  const quoteGenerator = () => {
+    alert('"Coffee smells like freshly ground heaven". - Jessi Lane Adams');
+  };
   return (
     <div>
       <header>
@@ -19,6 +22,9 @@ function Home() {
         <img src={coffee} alt="imageone" />
         <br />
         <p></p>
+        <button type="button" onClick={quoteGenerator}>
+          Quote of The Day
+        </button>
       </body>
     </div>
   );

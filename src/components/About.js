@@ -15,7 +15,7 @@ function About() {
       </header>
       <body>
         <div className="about-information">
-          <p>A little bit about this coffee shop...</p>
+          <p>A little bit about this shop...</p>
           <p>
             Over the years, I have always enjoyed drinking coffee. Whether it's
             just on a Saturday morning, making a cup before work or just
