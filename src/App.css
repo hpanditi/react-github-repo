@@ -18,9 +18,10 @@ p {
   padding: 5px;
 }
 
-.self-image {
+.self-image img {
   width: 100px;
-  height: 100px;
+  height: auto;
+  border: 2px solid;
 }
 
 .article-one {
