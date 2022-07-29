@@ -97,3 +97,8 @@ td {
   border-radius: 25px;
   padding: 25px;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}

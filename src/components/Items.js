@@ -23,6 +23,7 @@ function Items() {
           <img
             src={light}
             alt="lightroast"
+            class="responsive"
             style={{ width: "250px", height: "250 px", padding: "10px" }}
           />
           <div class="container">
