@@ -24,7 +24,7 @@ function Items() {
             src={light}
             alt="lightroast"
             class="responsive"
-            style={{ width: "250px", height: "250 px", padding: "10px" }}
+            style={{ width: "250px", height: "auto", padding: "10px" }}
           />
           <div class="container">
             <p>Light Roast $12.95/pound</p>
