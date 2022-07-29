@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 
 function Home() {
   const quoteGenerator = () => {
-    alert('"Coffee smells like freshly ground heaven". - Jessi Lane Adams');
+    alert('"Coffee smells like freshly ground heaven." - Jessi Lane Adams');
   };
   return (
     <div>
@@ -62,7 +62,10 @@ function Home() {
           </tr>
         </table>
         <br />
-        <a href="/Menu"><Button variant="primary">Menu</Button></a>
+        <a href="/Menu">
+          <Button variant="primary">Menu</Button>
+        </a>
+        <br />
       </body>
     </div>
   );

@@ -6,6 +6,8 @@ import Blog from "./components/Blog";
 import Menu from "./components/Menu";
 import Items from "./components/Items";
 import Cart from "./components/Cart";
+import Checkout from "./components/Checkout";
+import ThankYou from "./components/ThankYou";
 import Contact from "./components/Contact";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path="/Menu" element={<Menu />} />
         <Route path="/Items" element={<Items />} />
         <Route path="/Cart" element={<Cart />} />
+        <Route path="/Checkout" element={<Checkout />} />
+        <Route path="/ThankYou" element={<ThankYou />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
