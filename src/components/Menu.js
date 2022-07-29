@@ -32,6 +32,14 @@ function Menu() {
             <td>Cappucino</td>
             <td>$ 5.25</td>
           </tr>
+          <tr>
+            <td>Drip/Pour Over</td>
+            <td>$ 6.25</td>
+          </tr>
+          <tr>
+            <td>Americano</td>
+            <td>$ 5.25</td>
+          </tr>
         </table>
         <br />
         <p>
