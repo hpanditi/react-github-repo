@@ -76,6 +76,7 @@ td {
   border-style: solid;
   border-radius: 25px;
   height: auto;
+  background-color: powderblue;
 }
 
 .card:hover {
