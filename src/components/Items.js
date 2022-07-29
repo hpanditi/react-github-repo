@@ -19,6 +19,7 @@ function Items() {
       </header>
       <br />
       <body>
+        <div className="item-page">
         <div class="card">
           <img
             src={light}
@@ -82,6 +83,7 @@ function Items() {
         <a href="https://us-central1-react-gcp-pipeline.cloudfunctions.net/function-extradark">
           <button className="extradark-learn-more">Learn more</button>
         </a>
+        </div>
       </body>
     </div>
   );
