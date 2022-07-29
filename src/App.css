@@ -6,7 +6,7 @@ h1 {
   color: black;
   text-align: center;
   font-style: italic;
-  background-color: lightsalmon;
+  background-color: salmon;
 }
 
 p {
@@ -62,6 +62,15 @@ p {
   width: 100%;
 }
 
-.cart-image img {
-  height: 50%;
+.hours,
+th,
+td {
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For cell phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }

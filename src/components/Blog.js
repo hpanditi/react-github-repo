@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 
 function Blog() {
   return (
@@ -7,6 +8,7 @@ function Blog() {
         <a href="/"> Home |</a>
         <a href="/About"> About |</a>
         <a href="/Blog"> Blog |</a>
+        <a href="/Menu"> Menu |</a>
         <a href="/Items"> Items |</a>
         <a href="/Cart"> Cart |</a>
         <a href="/Contact"> Contact</a>
@@ -14,7 +16,12 @@ function Blog() {
       </header>
       <body>
         <p>Here is more stuff about coffee!</p>
+        <p>Check out the link below on the process of making coffee:</p>
+        <a href="https://www.youtube.com/watch?v=1qfjLCOXMMg">
+          <Button>How Coffee is Made</Button>
+        </a>
         <br />
+        <p></p>
         <div className="article-one">
           <article>
             <h3>Blog 1:</h3>

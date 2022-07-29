@@ -11,6 +11,7 @@ function Items() {
         <a href="/"> Home |</a>
         <a href="/About"> About |</a>
         <a href="/Blog"> Blog |</a>
+        <a href="/Menu"> Menu |</a>
         <a href="/Items"> Items |</a>
         <a href="/Cart"> Cart |</a>
         <a href="/Contact"> Contact</a>

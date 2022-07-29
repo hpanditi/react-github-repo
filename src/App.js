@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import Blog from "./components/Blog";
+import Menu from "./components/Menu";
 import Items from "./components/Items";
 import Cart from "./components/Cart";
 import Contact from "./components/Contact";
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Blog" element={<Blog />} />
+        <Route path="/Menu" element={<Menu />} />
         <Route path="/Items" element={<Items />} />
         <Route path="/Cart" element={<Cart />} />
         <Route path="/Contact" element={<Contact />} />

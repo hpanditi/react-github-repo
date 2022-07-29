@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 
 function Contact() {
   return (
@@ -7,6 +8,7 @@ function Contact() {
         <a href="/"> Home |</a>
         <a href="/About"> About |</a>
         <a href="/Blog"> Blog |</a>
+        <a href="/Menu"> Menu |</a>
         <a href="/Items"> Items |</a>
         <a href="/Cart"> Cart |</a>
         <a href="/Contact"> Contact</a>
@@ -33,6 +35,18 @@ function Contact() {
           </div>
           <button type="submit">submit</button>
         </form>
+        <p>Follow us on socials!</p>
+        <a href="https://www.facebook.com">
+          <Button>Facebook</Button>
+        </a>
+        <br />
+        <a href="http://www.instagram.com">
+          <Button>Instagram</Button>
+        </a>
+        <br />
+        <a href="http://www.twitter.com">
+          <Button>Twitter</Button>
+        </a>
       </body>
     </div>
   );
