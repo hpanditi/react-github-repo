@@ -18,7 +18,7 @@ function Checkout() {
             <label htmlFor="">
               Credit Card Number:{" "}
               <input
-                type="text"
+                type="number"
                 name="cardnumber"
                 placeholder="****************"
               />
@@ -31,7 +31,7 @@ function Checkout() {
             <p></p>
             <label htmlFor="">
               Security Code:{" "}
-              <input type="text" name="securitycode" placeholder="***" />
+              <input type="number" name="securitycode" placeholder="***" />
             </label>
             <p></p>
             <a href="/ThankYou">

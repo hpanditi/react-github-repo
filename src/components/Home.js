@@ -61,6 +61,7 @@ function Home() {
             <td> 6:00 a.m. - 6:00 p.m.</td>
           </tr>
         </table>
+        <p>Hours may vary due to Holidays, etc.**</p>
         <br />
         <a href="/Menu">
           <Button variant="primary">Menu</Button>
